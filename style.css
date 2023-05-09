@@ -1,3 +1,31 @@
-h1 {
-    color: red;
+body {
+    background-image: url('./interni-dal-design-moderno-blu-ristorante-sala-funzioni-sfondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*HEADER*/
+nav {
+    background-color: salmon;
+
+}
+
+.logo-nav {
+    width: 30px;
+    height: 30px;
+}
+
+/*MAIN*/
+.container-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+.card-img-top {
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
 }
